@@ -1,16 +1,16 @@
-# Nature of Code (JupyterLite notebooks)
+# Nature of Code（JupyterLite ノートブック）
 
-This folder contains chapter-by-chapter summaries of Daniel Shiffman's *The Nature of Code* with tiny runnable examples tailored for a JupyterLite (Pyodide) environment.
+このフォルダには Daniel Shiffman の『The Nature of Code』を章ごとに短くまとめたノートブックと、JupyterLite（Pyodide）上ですぐに動かせる小さなPython例が入っています。
 
-## Structure
-- `notebooks/ch00-introduction.ipynb` to `ch10-neural-networks.ipynb` — one notebook per chapter
-- Each notebook opens with a short markdown recap and a single self-contained Python example (no external packages)
+## 構成
+- `notebooks/ch00-introduction.ipynb` 〜 `notebooks/ch10-neural-networks.ipynb` : 章ごとに1ノートブック
+- 各ノートブックは短いMarkdownの振り返りと、外部依存のない自給自足のPython例で構成
 
-## How to use in JupyterLite
-1. Upload or place the `notebooks/` directory in your JupyterLite workspace.
-2. Open any chapter notebook and run cells in order. They avoid heavy dependencies so they should run out of the box.
-3. Tweak the parameters listed under "Try:" in the first cell to explore each topic further.
+## JupyterLiteでの使い方
+1. `notebooks/` ディレクトリをJupyterLiteワークスペースにアップロードまたは配置します。
+2. 任意の章のノートブックを開き、上から順にセルを実行します。Pyodideのみで動くよう重い依存は避けています。
+3. 最初のセルにある「試してみよう」のパラメータを変えながら各トピックを探索してください。
 
-## Notes
-- Examples are minimal text-based demonstrations so they stay portable inside JupyterLite.
-- For richer visuals, you can replace the placeholder vector/physics code with p5-like drawing once available in your environment.
+## メモ
+- 例はテキスト出力中心の最小実装です。JupyterLite内で完結させるため外部描画ライブラリは使っていません。
+- p5のような描画環境が使える場合は、ここでのベクトル/物理コードを置き換えて視覚化することもできます。
