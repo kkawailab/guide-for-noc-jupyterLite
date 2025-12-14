@@ -2,6 +2,12 @@
 
 このフォルダには Daniel Shiffman の『The Nature of Code』を章ごとに短くまとめたノートブックと、JupyterLite（Pyodide）上ですぐに動かせる小さなPython例が入っています。
 
+## 目次
+- [構成](#構成)
+- [JupyterLiteでの使い方](#jupyterliteでの使い方)
+- [メモ](#メモ)
+- [p5.js版ノートブック](#p5js版ノートブック)
+
 ## 構成
 - `notebooks/ch00-introduction.ipynb` 〜 `notebooks/ch10-neural-networks.ipynb` : 章ごとに1ノートブック
 - 各ノートブックは短いMarkdownの振り返りと、外部依存のない自給自足のPython例で構成
